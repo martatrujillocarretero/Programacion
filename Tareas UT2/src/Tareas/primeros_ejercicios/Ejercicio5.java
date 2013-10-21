@@ -7,20 +7,28 @@ public class Ejercicio5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		float tamaño,velocidad;
-		double tiempo;
+		
+		double tamaño,velocidad;
 		
 		Scanner teclado = new Scanner(System.in);
 		
-		System.out.print("Escribe el tamaño del archivo en Mbytes y a continuación la velocidad de la línea de datos en Mbps: ");
-		tamaño=teclado.nextFloat();
-		velocidad=teclado.nextFloat();
+		System.out.print("¿Cual es el tamaño del archivo (Mbytes)? ");
+		tamaño=teclado.nextDouble();
+		System.out.print("¿Cual es la velocidad de tu linea (Mbps)? " );
+		velocidad=teclado.nextDouble();
+		tamaño = tamaño * 1024* 1024 * 8; //= Tamaño* Math.pow(2,20) * 8
+		velocidad = velocidad * 1000000;
 		
-		tiempo = (tamaño*8)/velocidad;  //1Mbytes = 8 Mbites; Mbps = Mbites por segundo
 		
-		System.out.print("El tiempo que tarda en transmitir el archivo es: " + tiempo);
 		
+		System.out.print("Datos:" + tamaño);
+		System.out.print("\nVelocidad: " + velocidad + "bps"); // el palito y la n= " \n " es como un introl
+		System.out.print("Tiempo para transmitir:" + tamaño/velocidad + " s ");
+		
+	
 		teclado.close();
+		
+		
 		
 	}
 
