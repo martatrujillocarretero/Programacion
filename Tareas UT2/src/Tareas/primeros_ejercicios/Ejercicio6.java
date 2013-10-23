@@ -1,7 +1,7 @@
 package Tareas.primeros_ejercicios;
 
 public class Ejercicio6 {
-
+	
 	public static void main(String[] args) {
 	
 	                float x,y,z;
