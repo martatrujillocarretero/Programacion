@@ -25,6 +25,15 @@ public class Operadores {
 		
 			if (se_congela) System.out.println("Pon la calefacción");
 			
+			variable = 6 > 2 && 4<=7;
+			
+			int numero;
+			long numero_largo;
+			
+			numero=3;
+			numero_largo=3L;
+			
+			
 			
 			
 			
