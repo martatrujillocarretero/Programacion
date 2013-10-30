@@ -24,12 +24,12 @@ public class Grafica_barras {
 		carroceria1.draw();
 		carroceria1.fill();
 		
-		Rectangle carroceria2 = new Rectangle(390,200,30,300);
+		Rectangle carroceria2 = new Rectangle(390,200,50,300);
 		carroceria2.setColor(Color.GREEN);
 		carroceria2.draw();
 		carroceria2.fill();
 		
-		Rectangle carroceria3 = new Rectangle(450,100,70,400);
+		Rectangle carroceria3 = new Rectangle(470,100,20,400);
 		carroceria3.setColor(Color.RED);
 		carroceria3.draw();
 		carroceria3.fill();
