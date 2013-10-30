@@ -29,6 +29,11 @@ public class Grafica_barras {
 		carroceria2.draw();
 		carroceria2.fill();
 		
+		Rectangle carroceria3 = new Rectangle(450,100,70,400);
+		carroceria3.setColor(Color.RED);
+		carroceria3.draw();
+		carroceria3.fill();
+		
 		Line coordenadasY = new Line(100,75,100,500);
 		coordenadasY.draw();
 		
