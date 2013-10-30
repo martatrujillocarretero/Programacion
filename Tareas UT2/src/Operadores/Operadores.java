@@ -1,4 +1,4 @@
-package Ejemplos.clase;
+package Operadores;
 import java.util.Scanner;
 public class Operadores {
 
