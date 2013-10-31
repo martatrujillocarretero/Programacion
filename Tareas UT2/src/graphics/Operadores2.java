@@ -1,4 +1,4 @@
-package Operadores;
+package graphics;
 
 public class Operadores2 {
 
@@ -63,24 +63,7 @@ public class Operadores2 {
 		System.out.print("\t");
 		System.out.print(!a);
 		System.out.print("\t");
-		System.out.println(!b + "\n");
-		
-		
-		
-			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(!b + "\n");	
 		
 		
 		
