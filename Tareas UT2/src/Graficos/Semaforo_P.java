@@ -4,7 +4,7 @@ import graphics.Ellipse;
 import graphics.Rectangle;
 import graphics.Color;
 
-public class Semaforo_PROFESOR {
+public class Semaforo_P {
 
 	public static void main(String[] args) {
 		Rectangle caja, palo;

@@ -6,6 +6,7 @@ import graphics.Canvas;
 import graphics.Color;
 import graphics.Line;
 import graphics.Rectangle;
+import graphics.Text;
 
 
 public class Grafica_barras {
@@ -15,6 +16,10 @@ public class Grafica_barras {
 		Canvas lienzo;
 		
 		Rectangle carroceria = new Rectangle(120,300,50,200);
+		//120= posicion X
+		//300= posicion Y
+		//50= lo que vale X (ancho)
+		//200= lo que vale Y (alto)
 		carroceria.setColor(Color.YELLOW);
 		carroceria.draw();
 		carroceria.fill();
@@ -39,6 +44,12 @@ public class Grafica_barras {
 		
 		Line coordenadasX = new Line(100,500,500,500);
 		coordenadasX.draw();
+		
+		Text Euribor = new Text(100,50,"Euribor");
+		Euribor.draw();
+		
+		Text Mes = new Text(500,500,"Mes");
+		Mes.draw();
 		
 		
 
